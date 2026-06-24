@@ -2,8 +2,6 @@
 
 Premium personal portfolio website — a **static, frontend-only** SPA built with React, TypeScript, Tailwind CSS, Framer Motion, and Vite.
 
-No backend, no API keys, and no environment variables required.
-
 ## Tech Stack
 
 - **React 19** + **TypeScript**
@@ -22,7 +20,6 @@ This is a **static single-page application**. All content lives in `src/data/por
 | `src/lib/navigation.ts` | Client-side hash scroll, mailto, and external links |
 | `dist/` | Production output (HTML, CSS, JS) for static hosting |
 
-Contact is handled via native `mailto:` links and GitHub — no form submission service.
 
 ## Features
 
@@ -41,7 +38,6 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Build
 
@@ -74,11 +70,3 @@ src/
 ├── hooks/            # Custom React hooks
 └── types/            # Shared TypeScript types
 ```
-
-## Customization
-
-Update your personal information in `src/data/portfolio.ts`:
-
-- Contact details (email, GitHub)
-- Projects, skills, experience
-- Hero content and achievements
