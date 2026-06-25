@@ -90,7 +90,7 @@ export function Terminal() {
                     key={i}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    className="text-accent pl-4"
+                    className="text-accent pl-4 break-words"
                   >
                     {line}
                   </motion.p>

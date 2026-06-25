@@ -62,7 +62,7 @@ export function CommandPalette({ isOpen, onClose }: CommandPaletteProps) {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: -20 }}
             transition={{ duration: 0.15 }}
-            className="fixed top-[20%] left-1/2 -translate-x-1/2 z-[101] w-full max-w-lg mx-4"
+            className="fixed top-[12%] sm:top-[20%] left-1/2 -translate-x-1/2 z-[101] w-[calc(100vw-2rem)] sm:w-full max-w-lg"
           >
             <div className="glass rounded-xl shadow-glow-lg overflow-hidden border border-white/[0.1]">
               <div className="flex items-center gap-3 px-4 border-b border-white/[0.08]">

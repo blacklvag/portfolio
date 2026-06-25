@@ -8,7 +8,7 @@ export function Hero() {
   const navigate = useNavigate()
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center pt-16 overflow-hidden">
+    <section id="hero" className="relative min-h-[100svh] md:min-h-screen flex items-center pt-16 overflow-hidden">
       <AnimatedBackground />
 
       <div className="section-container relative z-10 py-20 md:py-32">

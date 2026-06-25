@@ -11,7 +11,7 @@ interface SocialLinksProps {
 export function SocialLinks({ links, variant = 'card', className = '' }: SocialLinksProps) {
   if (variant === 'inline') {
     return (
-      <div className={`flex items-center gap-6 ${className}`}>
+      <div className={`flex flex-wrap sm:flex-nowrap items-center gap-x-6 gap-y-2 ${className}`}>
         {links.map((link) => (
           <a
             key={link.label}
